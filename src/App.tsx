@@ -4,7 +4,8 @@ import MonacoEditor from 'react-monaco-editor';
 function App() {
   return (
     <div className='App'>
-      <MonacoEditor />
+      <h2 className='heading'>Start editing:</h2>
+      <MonacoEditor height='90vh' options={{ automaticLayout: true }} />
     </div>
   );
 }
